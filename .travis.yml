@@ -1,6 +1,6 @@
 language: java
 deploy:
-  provider: s3
+  provider: opsworks
   access_key_id: "AKIAJSCGMW44E3TFK6XQ"
   secret_access_key: "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"
-  bucket: "travis-teste"
+  bucket: "testedeploy"
